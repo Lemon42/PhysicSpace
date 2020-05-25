@@ -1,0 +1,36 @@
+.my-form{
+  display: flex;
+}
+
+.input-control{
+  width: 70px;
+  height: 50px;
+  margin-top: 11px;
+
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: #343a40;
+
+  color: #33ccff;
+  font-family: Consolas,monaco,monospace; 
+  font-size: 18px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+    
+}
+
+input[type=number] { 
+  -moz-appearance: textfield;
+  appearance: textfield;
+
+}
+
+.form-text{
+  color: #33ccff;
+  font-size: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+}

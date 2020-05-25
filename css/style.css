@@ -1,0 +1,28 @@
+#menu{
+	background-color: #33ccff !important;
+	color: #fff !important;
+}
+
+.logo-img{
+	width: 40px;
+	height: 40px;
+	margin-bottom: 4px;
+	margin-right: 10px;
+}
+
+#menu a{
+	color: #fff;
+}
+
+#menu a:hover{
+	color: #fff;
+}
+
+.container{
+  margin-top: 30px;
+}
+
+h1 {
+  color: #33ccff;
+}
+

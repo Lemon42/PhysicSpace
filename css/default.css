@@ -1,0 +1,65 @@
+body, html {
+  height: 100%;
+}
+
+/* SELECAO */
+::selection {background: #2EB8E6; color: #000;}
+::-moz-selection {background: #2EB8E6; color: #000;}
+
+
+/* BARRA */
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #343a40;
+}
+
+@media screen and (min-width: 801px) {
+    ::-webkit-scrollbar
+    {
+	   width: 8px;
+    }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    ::-webkit-scrollbar
+    {
+	   width: 5px;
+    }
+}
+
+/* IMG */
+.parallax {
+  height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+img{
+	width:100%;
+	height:auto;
+}
+
+.bootstrap-select .btn:focus {
+  outline: none !important;
+}
