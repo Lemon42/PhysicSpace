@@ -22,6 +22,10 @@
   margin-top: 30px;
 }
 
+.texto{
+  text-align: justify;
+}
+
 h1 {
   color: #33ccff;
 }
