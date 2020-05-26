@@ -27,6 +27,8 @@ h1{
   font-size: 33px;
   font-weight: bold;
   color: #fff;
+
+  transition-duration: 0.65s;
 }
 
 .btn-voltar:hover{
