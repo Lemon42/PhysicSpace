@@ -50,8 +50,11 @@ input[type=number] {
   color: #2EB8E6;
 }
 
-.btn-envio:hover{
+.btn-envio:focus {
+  outline: none !important;
+}
 
+.btn-envio:hover{
   border-color: #343a40;
   color: #343a40;
   box-shadow: 5px 6px #343a40;
