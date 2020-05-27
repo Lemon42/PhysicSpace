@@ -11,8 +11,8 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 			integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-		<title>Hello, world!</title>
-		<link size="20x20px" rel='shortcut icon' href="#" />
+		<title>Bem-vindo! - PhysicSpace</title>
+		<link size="20x20px" rel='shortcut icon' href="images/favicon.png" />
 	</head>
 	<body>
 		<ul id="menu">
@@ -20,27 +20,36 @@
 			<a href="#p2"><li class="btn-controller p2"></li></a>
 			<a href="#p3"><li class="btn-controller p3"></li></a>
 			<a href="#p4"><li class="btn-controller p4"></li></a>
-			<a href="#p5"><li class="btn-controller p5"></li></a>
-			<a href="#p6"><li class="btn-controller p6"></li></a>
 		</ul>
 		<div id="fullpage">
-			<div class="section active" id="section0">
-				<h1>1</h1>
+			<div class="section active" id="section0" style="background-image:url(images/img1.jpg);">
+				<div class="center-div">
+					<h1>Olá!</h1><br>
+					<h4>Durante muito tempo de nossas vidas aprendemos física, e sim para muitos essa matéria pode ser aterrorizante,
+					maçante, ou até insuportável.</h4>
+				</div>
 			</div>
-			<div class="section" id="section1">
-				<h1>2</h1>
+			<div class="section" id="section1" style="background-image:url(images/img2.jpg);">
+				<div class="center-div">
+					<h1>Podemos te ajudar ;D</h1><br>
+					<h4>Mas não é hora de perder as esperanças ainda. Que tal ao invés de você já julgar física, antes dar uma olhadinha em
+					nosso site?</h4>
+				</div>
 			</div>
-			<div class="section" id="section2">
-				<h1>3</h1>
+			<div class="section" id="section2" style="background-image:url(images/img3.jpg);">
+				<div class="center-div">
+					<h1>Física de forma simples e fácil pra você decolar</h1><br>
+					<h4>Iremos lhe mostrar como física pode sim ser legal de um jeito diferente, mostrando as formulas e resolvendo seus
+						problemas de uma forma rápida e fácil.</h4>
+				</div>
 			</div>
-			<div class="section" id="section3">
-				<h1>4</h1>
-			</div>
-			<div class="section" id="section4">
-				<h1>5</h1>
-			</div>
-			<div class="section" id="section5">
-				<h1>6</h1>
+			<div class="section" id="section3" style="background-image:url(images/img4.webp);">
+				<div class="center-div">
+					<h1>Seja bem-vindo ao PhysicSpace</h1><br>
+					<h4>Então vem com a gente e entre no nosso mundo de física, o PhysicSpace. Click no botão e entre, estamos te esperando.</h4>
+					<br><br>
+					<button onclick="window.location.href='pages/intro.html'">Entrar</button>
+				</div>
 			</div>
 		</div>
 
@@ -56,7 +65,7 @@
 			crossorigin="anonymous"></script>
 		<!-- FullPage -->
 		<script type="text/javascript">
-			const allPages = ['p1', 'p2', 'p3', 'p4', 'p5', 'p6'];
+			const allPages = ['p1', 'p2', 'p3', 'p4'];
 		</script>
 		<script src="js/controller.js"></script>
 		<script src="js/fullpage.min.js"></script>
