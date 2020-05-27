@@ -18,6 +18,17 @@
 	color: #fff;
 }
 
+.navbar-toggler{
+  color: #fff !important;
+  font-weight: bold !important;
+  font-size: 29px !important;
+  border: none !important;
+}
+
+.navbar-toggler:focus{
+  outline: none !important;
+}
+
 .container{
   margin-top: 30px;
 }

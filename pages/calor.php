@@ -18,19 +18,9 @@
 </head>
 
 <body>
-	<nav id="menu" class="navbar navbar-expand-lg">
-		<a class="navbar-brand" href="#"><img class="logo-img" src="../images/science.png" />PhysicSpace</a>
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="../index.html">Introdução</a>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="sobre.html">Sobre nós</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+
+	<?php include("../models/nav-bar.php"); ?>
+	
 	<img class="parallax" src="../images/wallpaper2.jpg" />
 	<div class="container">
 		<h1>Calorimetria</h1>
