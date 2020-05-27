@@ -12,6 +12,6 @@ function Validation(inputName){
 		return true;
 	}
 
-	alert('Erro no envio de informações\nTente novamete . . .');
+	alert('Erro no envio de informações\nDeixe apenas um campo em branco. . .');
 	return false;
 }
