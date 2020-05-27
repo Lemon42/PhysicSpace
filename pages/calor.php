@@ -64,6 +64,39 @@
 		<li><strong>m</strong>  = massa</li>
 		<li><strong>c</strong>  = calor específico</li>
 		<li><strong>ΔT</strong> = variação da temperatura</li>
+		<br><br>
+		<h1>Calor Latente</h1>
+		<h2>ΔQ = m · L</h2>
+		<form method="post" action="../functions/cal2.php" enctype="multipart/form-data">
+			<div class="my-form">
+				<input name="q" class="input-control form2" type="number" step="0.01" autocomplete="off" placeholder="ΔQ">
+				<div class="form-text">=</div>
+				<input name="m" class="input-control form2" type="number" step="0.01" autocomplete="off" placeholder="m">
+				<div class="form-text">.</div>
+				<input name="l" class="input-control form2" type="number" step="0.01" autocomplete="off" placeholder="L">
+			</div>
+			<button type="submit" onclick="return Validation('form2'); return false;" class="btn-envio">Calcular</button>
+		</form>
+		<li><strong>ΔQ</strong> = quantidade de calor</li>
+		<li><strong>m</strong>  = massa</li>
+		<li><strong>L</strong>  = calor latente</li>
+		<br><br>
+		<h1>Capacidade Térmica</h1>
+		<h2>C = ΔQ / ΔT</h2>
+		<form method="post" action="../functions/cal3.php" enctype="multipart/form-data">
+			<div class="my-form">
+				<input name="c" class="input-control form3" type="number" step="0.01" autocomplete="off" placeholder="C">
+				<div class="form-text">=</div>
+				<input name="q" class="input-control form3" type="number" step="0.01" autocomplete="off" placeholder="ΔQ">
+				<div class="form-text">/</div>
+				<input name="t" class="input-control form3" type="number" step="0.01" autocomplete="off" placeholder="ΔT">
+			</div>
+			<button type="submit" onclick="return Validation('form3'); return false;" class="btn-envio">Calcular</button>
+		</form>
+		<li><strong>C</strong>  = capacidade térmica</li>
+		<li><strong>ΔQ</strong> = quantidade de calor</li>
+		<li><strong>ΔT</strong> = variação da temperatura</li>
+
 	</div>
 
 	<?php include("../models/footer.php"); ?>
