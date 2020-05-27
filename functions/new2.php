@@ -40,7 +40,7 @@
 					}
 				?>
 			</h1>
-			<button class="btn-voltar" onclick="window.location.href='../pages/newton.html'">Voltar</button>
+			<button class="btn-voltar" onclick="window.location.href='../pages/newton.php'">Voltar</button>
 		</center>
 	</div>
 
