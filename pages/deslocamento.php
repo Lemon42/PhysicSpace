@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-	<title>Calorimetria - PhysicSpace</title>
+	<title>Deslocamento - PhysicSpace</title>
 	<link size="20x20px" rel='shortcut icon' href="../images/favicon.png" />
 </head>
 
@@ -50,6 +50,7 @@
 		<li><strong>v</strong> = velocidade</li>
 		<li><strong>ΔT</strong> = intervalo de tempo</li>
 	</div>
+	
 	<?php include("../models/footer.php"); ?>
 
 	<!-- Bootstrap CSS -->

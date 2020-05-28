@@ -11,7 +11,7 @@
 					<hr class="clearfix w-100 d-md-none pb-3" />
 					<div class="col-md-3 mb-md-0 mb-3">
 						<h5 class="text-uppercase">Elias Santos</h5>
-						<p>Extrovertido e carismático ajuda tanto na produção texto e no humor da equipe.</p>
+						<p>Extrovertido e carismático ajuda tanto na produção textual quanto no humor da equipe.</p>
 						<ul class="list-unstyled">
 							<li>
 								<div><a href="https://www.instagram.com/_elias.santos_/">Siga no Instagram</a></div>
@@ -27,7 +27,7 @@
 					</div>
 					<div class="col-md-3 mb-md-0 mb-3">
 						<h5 class="text-uppercase">Gabriel Lopes</h5>
-						<p>Cheio de ideias tem peça fundamental na area criativa e de marketing do projeto.</p>
+						<p>Cheio de ideias tem peça fundamental na área criativa e de marketing do projeto.</p>
 						<ul class="list-unstyled">
 							<li>
 								<div><a href="https://www.instagram.com/gabriel_l.m/">Siga no Instagram</a></div>
